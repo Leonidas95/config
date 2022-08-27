@@ -1,0 +1,31 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.showActionButton": {
+    "commit": true,
+    "publish": true,
+    "sync": false,
+  },
+  "git.postCommitCommand": "push",
+  "editor.rulers": [120],
+  "editor.tabSize": 2,
+  "editor.codeLens": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "all",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "editor.renderControlCharacters": true,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono", // TO DISABLE IF FONT IS NOT INSTALLED
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+}
