@@ -130,6 +130,8 @@ module.exports = {
     screenReaderMode: false,
     // set to true to preserve working directory when creating splits or tabs
     preserveCWD: true,
+    // The number of rows to be persisted in terminal buffer for scrolling
+    scrollback: 5000,
     // for advanced config flags please refer to https://hyper.is/#cfg
   },
   // a list of plugins to fetch and install from npm
