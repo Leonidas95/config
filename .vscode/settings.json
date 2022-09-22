@@ -6,7 +6,7 @@
   "git.showActionButton": {
     "commit": true,
     "publish": true,
-    "sync": false,
+    "sync": false
   },
   "git.postCommitCommand": "push",
   "editor.rulers": [120],
@@ -15,6 +15,9 @@
   "editor.guides.bracketPairs": "active",
   "editor.renderWhitespace": "all",
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "editor.fontFamily": "FiraCode Nerd Font Mono",
   "editor.renderControlCharacters": true,
   "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono", // TO DISABLE IF FONT IS NOT INSTALLED
@@ -28,4 +31,25 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.eol": "\n",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
