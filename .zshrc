@@ -49,6 +49,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
+alias l='exa -la --icons --no-user --group-directories-first  --time-style long-iso'
 
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
