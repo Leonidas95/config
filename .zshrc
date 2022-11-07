@@ -54,4 +54,4 @@ alias l='exa -la --icons --no-user --group-directories-first  --time-style long-
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
-eval "$(starship init zsh)"
+eval "$(oh-my-posh init zsh)"
