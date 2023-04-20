@@ -1,9 +1,9 @@
 {
-  "Ansi 6 Color" : {
-    "Red Component" : 0.25882352941176473,
+  "Ansi 5 Color" : {
+    "Red Component" : 0.70196078431372544,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.6705882352941176,
-    "Green Component" : 0.6705882352941176
+    "Blue Component" : 0.55294117647058827,
+    "Green Component" : 0.36470588235294116
   },
   "Tags" : [
 
@@ -14,11 +14,11 @@
     "Blue Component" : 0.80392156862745101,
     "Green Component" : 0.58823529411764708
   },
-  "Ansi 7 Color" : {
-    "Red Component" : 0.58823529411764708,
+  "Ansi 0 Color" : {
+    "Red Component" : 0.074509803921568626,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.70980392156862748,
-    "Green Component" : 0.6588235294117647
+    "Blue Component" : 0.1803921568627451,
+    "Green Component" : 0.13333333333333333
   },
   "Draw Powerline Glyphs" : true,
   "Bold Color" : {
@@ -27,27 +27,24 @@
     "Blue Component" : 0.70980392156862748,
     "Green Component" : 0.6588235294117647
   },
-  "Ansi 8 Color" : {
-    "Red Component" : 0.16078431372549021,
+  "Ansi 1 Color" : {
+    "Red Component" : 0.792156862745098,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.27058823529411763,
-    "Green Component" : 0.2196078431372549
+    "Blue Component" : 0.35294117647058826,
+    "Green Component" : 0.24313725490196078
   },
-  "Ansi 9 Color" : {
-    "Red Component" : 0.84705882352941175,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.24313725490196078,
-    "Green Component" : 0.51764705882352946
-  },
-  "Ansi 5 Color" : {
-    "Red Component" : 0.70196078431372544,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.55294117647058827,
-    "Green Component" : 0.36470588235294116
-  },
+  "Normal Font" : "FiraCodeNerdFontCompleteM-Light 14",
+  "Horizontal Spacing" : 1,
   "Rows" : 40,
   "Default Bookmark" : "No",
-  "Use Non-ASCII Font" : false,
+  "Ansi 3 Color" : {
+    "Red Component" : 0.92156862745098034,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.3843137254901961,
+    "Green Component" : 0.69019607843137254
+  },
+  "Custom Directory" : "Advanced",
+  "AWDS Tab Option" : "Yes",
   "Cursor Guide Color" : {
     "Red Component" : 0.70214027166366577,
     "Color Space" : "sRGB",
@@ -64,6 +61,7 @@
     "Green Component" : 0.6705882352941176
   },
   "Ambiguous Double Width" : false,
+  "AWDS Pane Option" : "Recycle",
   "Jobs to Ignore" : [
     "rlogin",
     "ssh",
@@ -84,13 +82,14 @@
   },
   "Working Directory" : "\/Users\/leonardcommelin\/Documents",
   "Blinking Cursor" : false,
-  "Disable Window Resizing" : true,
+  "AWDS Window Option" : "Yes",
   "Sync Title" : false,
   "Prompt Before Closing 2" : false,
   "BM Growl" : true,
-  "Command" : "",
-  "Description" : "Default",
   "Mouse Reporting" : true,
+  "Command" : "",
+  "AWDS Pane Directory" : "",
+  "Description" : "Default",
   "Screen" : -1,
   "Selection Color" : {
     "Red Component" : 0.70196078431372544,
@@ -98,6 +97,8 @@
     "Blue Component" : 0.55294117647058827,
     "Green Component" : 0.36470588235294116
   },
+  "Disable Window Resizing" : true,
+  "AWDS Window Directory" : "\/Users\/leonardcommelin\/Documents",
   "Only The Default BG Color Uses Transparency" : true,
   "Columns" : 150,
   "Idle Code" : 0,
@@ -336,33 +337,7 @@
     "Blue Component" : 0.69803921568627447,
     "Green Component" : 0.4392156862745098
   },
-  "Ansi 0 Color" : {
-    "Red Component" : 0.074509803921568626,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.1803921568627451,
-    "Green Component" : 0.13333333333333333
-  },
-  "Ansi 1 Color" : {
-    "Red Component" : 0.792156862745098,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.35294117647058826,
-    "Green Component" : 0.24313725490196078
-  },
-  "Horizontal Spacing" : 1,
-  "Ansi 3 Color" : {
-    "Red Component" : 0.92156862745098034,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.3843137254901961,
-    "Green Component" : 0.69019607843137254
-  },
-  "Custom Directory" : "Yes",
-  "Link Color" : {
-    "Red Component" : 0,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.73422712087631226,
-    "Alpha Component" : 1,
-    "Green Component" : 0.35915297269821167
-  },
+  "Transparency" : 0,
   "Guid" : "35C724D9-859B-4649-946B-B4A055766DA2",
   "Ansi 2 Color" : {
     "Red Component" : 0.50588235294117645,
@@ -370,13 +345,44 @@
     "Blue Component" : 0.34901960784313724,
     "Green Component" : 0.6470588235294118
   },
-  "Normal Font" : "FiraCodeNerdFontCompleteM-Light 14",
-  "Transparency" : 0,
+  "Link Color" : {
+    "Red Component" : 0,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.73422712087631226,
+    "Alpha Component" : 1,
+    "Green Component" : 0.35915297269821167
+  },
   "Ansi 4 Color" : {
     "Red Component" : 0.26666666666666666,
     "Color Space" : "sRGB",
     "Blue Component" : 0.80392156862745101,
     "Green Component" : 0.58823529411764708
   },
-  "Right Option Key Sends" : 0
+  "Right Option Key Sends" : 0,
+  "Use Non-ASCII Font" : false,
+  "Ansi 7 Color" : {
+    "Red Component" : 0.58823529411764708,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.70980392156862748,
+    "Green Component" : 0.6588235294117647
+  },
+  "AWDS Tab Directory" : "\/Users\/leonardcommelin\/Documents",
+  "Ansi 9 Color" : {
+    "Red Component" : 0.84705882352941175,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.24313725490196078,
+    "Green Component" : 0.51764705882352946
+  },
+  "Ansi 8 Color" : {
+    "Red Component" : 0.16078431372549021,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.27058823529411763,
+    "Green Component" : 0.2196078431372549
+  },
+  "Ansi 6 Color" : {
+    "Red Component" : 0.25882352941176473,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.6705882352941176,
+    "Green Component" : 0.6705882352941176
+  }
 }
